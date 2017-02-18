@@ -1,0 +1,8 @@
+# clean the database and generated jooq files
+$ ./gradlew clean
+
+# migrate the database and generate the jooq files
+$ ./gradlew build
+
+# clean and build if the db model is changed (new or changed migration)
+$ ./gradlew clean build
